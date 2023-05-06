@@ -10,7 +10,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "main -d build"
+    "deploy" : "main -d dist"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
