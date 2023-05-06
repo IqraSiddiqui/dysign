@@ -16,7 +16,7 @@ from io import BytesIO
 
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/api/*": {"origins": "http://localhost:4173"}})
+cors = CORS(app, resources={r"/api/*": {"origins": "https://iqrasiddiqui.github.io/dysign"}})
 
 
 # load the model
